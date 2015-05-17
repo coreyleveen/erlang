@@ -20,3 +20,7 @@ two = 2. % exception error: no match of right hand side value 2
 
 47 = 45 + 3. % exception error: no match of right hand side value 48
 
+% The '_' operator can be used as a variable, but won't store the value:
+
+_ = 14 + 3. % 17
+_. % * 1: variable '_' is unbound
